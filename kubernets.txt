@@ -1,0 +1,50 @@
+docker tag fs-sb docker950/fullstack-sb
+docker push new-repo:tagname
+
+docker push docker950/fullstack-sb:tagname
+docker push docker950/fullstack-angular:tagname
+
+docker tag fs-angular docker950/fullstack-angular:tagname
+docker950/sb-autoscale
+docker950/springboot-ro-dock:0.1
+
+https://gitlab-ibm.stackroute.in/Prasanna.Kommineni/maincourse_java_jfse_mc05_k8s_springboot_angular_exercise
+https://gitlab-ibm.stackroute.in/Prasanna.Kommineni/maincourse_java_jfse_mc05_k8s_springboot_exercise
+
+kubectl autoscale deployment.apps/hello-deployment-as --cpu-percent=10 --min=1 --max=10
+kubectl get hpa
+
+while true; do wget -q -O- http://localhost:30005/api/v1/hello
+
+kubectl get pods -n ingress-nginx  -l app.kubernetes.io/name=ingress-nginx --watch
+
+c->windows->system32->driver->etc->hosts
+https://www.youtube.com/watch?v=ha3LjlD6g7g
+
+helm installation
+
+eksctl create cluster  --name prasanna-cluster --region us-west-2 --fargate
+
+amazon eks worker node
+amazon ec2 container read only
+
+
+https://istio.io/latest/docs/setup/getting-started/
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html 
+https://aws.amazon.com/dynamodb/resources/?trkCampaign=acq_paid_search_brand&sc_channel=PS&sc_campaign=acquisition_IN&sc_publisher=Google&sc_category=Database&sc_country=IN&sc_geo=APAC&sc_outcome=acq&sc_detail=amazon%20dynamodb&sc_content={ad%20group}&sc_matchtype=e&sc_segment=477000700727&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Database|DynamoDB|IN|EN|Sitelink&s_kwcid=AL!4422!3!477000700727!e!!g!!amazon%20dynamodb&ef_id=Cj0KCQjwna2FBhDPARIsACAEc_WRjKwObd6BWkx1bwfNtp0FAfYAUqghZToREOPKwbNkYBmXwPxOy18aAv6LEALw_wcB:G:s&s_kwcid=AL!4422!3!477000700727!e!!g!!amazon%20dynamodb
+https://www.serverless.com/framework/docs/getting-started/
+https://www.serverless.com/blog/how-to-create-a-rest-api-in-java-using-dynamodb-and-serverless
+https://www.serverless.com/framework/docs/getting-started/
+add qoh(number) and  status(String) creation date 
+
+
+http://127.0.0.1:80/productpage
+
+
+eksctl create cluster --name convert-cluster --version 1.17 --region us-east-2 --nodegroup-name linux-cluster --node-type t2.micro --nodes 2
+
+
+  kubectl command should work with "C:\\Users\\PrasannaKommineni/.kube/config", try 'kubectl get nodes'
+2021-07-13 14:08:31 [✔]  EKS cluster "convert-cluster" in "us-east-2" region is ready
+
+--name convert-cluster --region us-east-2
